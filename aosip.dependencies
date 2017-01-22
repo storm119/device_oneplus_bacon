@@ -37,6 +37,12 @@
     "branch"     : "cm-14.1-caf-8974"
   },
   {
+    "remote":      "laos",
+    "repository":  "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "cm-14.1"
+  },
+  {
     "repository" : "arm-linux-androideabi-4.9",
     "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"
   }
