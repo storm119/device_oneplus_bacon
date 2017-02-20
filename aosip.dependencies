@@ -4,9 +4,8 @@
     "target_path": "device/oppo/common"
   },
   {
-    "repository": "ResurrectionRemix-Devices/android_kernel_oneplus_msm8974",
-    "target_path": "kernel/oneplus/msm8974",
-    "branch": "resurrected"
+    "repository": "KronicKernel/bacon",
+    "target_path": "kernel/oneplus/msm8974"
   },
   {
     "repository": "TheMuppets/proprietary_vendor_oneplus",
