@@ -13,11 +13,6 @@
     "branch": "cm-14.1"
   },
   {
-    "repository" : "TheMuppets/proprietary_vendor_qcom_binaries",
-    "target_path": "vendor/qcom/binaries",
-    "branch"     : "cm-14.1"
-  },
-  {
     "remote":      "laos",
     "repository" : "android_hardware_qcom_audio",
     "target_path": "hardware/qcom/audio-caf/msm8974",
