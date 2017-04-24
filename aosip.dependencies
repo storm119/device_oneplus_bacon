@@ -4,7 +4,7 @@
     "target_path": "device/oppo/common"
   },
   {
-    "repository": "KronicKernel/bacon",
+    "repository": "RandomDerps/bacon",
     "target_path": "kernel/oneplus/msm8974",
     "branch": "n-mr1"
   },
@@ -14,8 +14,7 @@
     "branch": "cm-14.1"
   },
   {
-    "remote":      "lineage",
-    "repository":  "android_packages_resources_devicesettings",
+    "repository":  "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "branch":      "cm-14.1"
   }
