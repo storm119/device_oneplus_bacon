@@ -85,6 +85,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Doze
+PRODUCT_PACKAGES += \
+    OnePlusDoze
+
 # Graphics
 PRODUCT_PACKAGES += \
     copybit.msm8974 \
@@ -246,10 +250,6 @@ $(call inherit-product, vendor/oneplus/bacon/bacon-vendor.mk)
 ifneq ($(QCPATH),)
 $(call inherit-product-if-exists, $(QCPATH)/prebuilt_HY11/target/product/msm8974/prebuilt.mk)
 endif
-
-# Doze
-PRODUCT_PACKAGES += \
-    OnePlusDoze
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
