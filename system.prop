@@ -62,6 +62,9 @@ ro.data.large_tcp_window_size=true
 ro.qualcomm.perf.cores_online=2
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# Qualcomm BT aptXHD
+persist.bt.enableAptXHD=true
+
 # Radio
 rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
 persist.radio.add_power_save=1
@@ -92,6 +95,9 @@ persist.timed.enable=true
 
 # Wifi
 wifi.interface=wlan0
+
+# Hack for Youtube
+sys.display-size=3840x2160
 
 # Hardware Info
 ro.device.chipset=Qualcomm Snapdragon 801
